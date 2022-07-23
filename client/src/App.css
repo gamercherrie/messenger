@@ -1,0 +1,43 @@
+:root {
+    --primary-background: #DBF9F0;
+    --secondary-background: #B3DEC1;
+}
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#root {
+  height: 100%;
+}
+
+.app__container {
+    display: flex;
+    flex: 1;
+    /* height: 800px; */
+    height: 100%;
+    /* border-radius: 16px; */
+    box-shadow: rgba(0, 0, 0, 0.33) 0px 1px 4px 0px;
+}
+
+.sidebar {
+    width: 72px;
+    background: var(--primary-background);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.set1__inner img {
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+.set2__inner img {
+    border-radius: 50%;
+}
+.set2__inner img:hover {
+    cursor: pointer;
+}
